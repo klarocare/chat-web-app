@@ -1,0 +1,27 @@
+{
+  "name": "klarocare-chat-web",
+  "version": "1.0.0",
+  "description": "A simple web application for Klaro Care chat functionality",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve . -p 8080",
+    "dev": "npx live-server --port=8080 --open=/",
+    "build": "echo 'No build step required for static files'",
+    "deploy": "echo 'Deploy static files to your web server'"
+  },
+  "keywords": [
+    "chat",
+    "healthcare",
+    "care-assistant",
+    "web-app"
+  ],
+  "author": "Klaro Care Team",
+  "license": "MIT",
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "serve": "^14.2.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+} 
