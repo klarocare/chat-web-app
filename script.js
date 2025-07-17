@@ -7,7 +7,7 @@ class ChatApp {
         this.language = 'en'; // Default language, can be 'en' or 'de'
         
         // API Configuration
-        this.baseUrl = 'http://localhost:8000';
+        this.baseUrl = 'https://c0168adb8baa.ngrok-free.app';
         this.chatEndpoint = '/api/chat/public';
         
         // DOM Elements
